@@ -60,9 +60,10 @@ We implemented and evaluated the following models:
 - Random Forest Classifier
 - XGBoost Classifier
 
-##Conclusion  
-> Given the dataset and models built, it is possible to predict hotel booking cancellations with relatively high accuracy
-> The best performing model was: `XGBoost Classifier` with the highest accuracy (above 80%), recall, and f1 score
+##Conclusion 
+
+Given the dataset and models built, it is possible to predict hotel booking cancellations with relatively high accuracy
+The best performing model was: `XGBoost Classifier` with the highest accuracy (above 80%), recall, and f1 score
 
 ## Learning Beyond the Course: 
 - Handling class imbalance to reduce bias to the majority class `class_weight='balanced'`
