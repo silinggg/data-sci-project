@@ -1,57 +1,54 @@
 # Predicting Hotel Booking Cancellations through Data Science
 
-> NTU Data Science Mini Project  
-> Lab Group: TEL1_team 2  
-> Team Members: [Your Full Names]
+> Lab Group: ECDS Team 11
+> Team Members: Madhumita, Onaya, Si Ling
 
 ---
+## About
 
-## 🎯 Motivation
+The SC1015 Data Science Mini Project focuses on predicting hotel booking cancellations by building predictive models based on a real-world dataset from a Portuguese hotel chain.
 
-In this project, we aimed to solve the following problem:
+Follow our project step-by-step, and explore these notebooks in the following order:
 
-**Problem Definition:**  
-Clearly state what you're predicting/classifying/detecting (e.g., "We aim to predict the likelihood of hotel booking cancellations using customer behavior and reservation features.")
+1. #data-cleaning-and-preprocessing
+2. #exploratory-data-analysis-eda
+3. #feature-selection
+4. #model-building
+5. #model-evaluation-and-final-insights
+
+**Practical Motivation:**  
+In the hospitality industry, booking cancellations are unavoidable and bound to happen for various reasons, which can cause significant operational and financial disruptions to hotels. They face challenges such as inefficient room allocations and loss of potential revenue opportunities. If, however, hotels could predict cancellations in advance (via data science), more proactive measures like pricing strategies, intelligently overbooking could be implemented for their benefit.
+
+**Problem Definition:**
+Are we then able to predict hotel booking cancellations using machine learning based on selected customer and reservation attributes, and which model would predict it the best?
 
 **Dataset Used:**  
-Briefly mention the dataset source and what it contains.
-
-**Why this problem matters:**  
-Explain why this problem is interesting or valuable to solve.
+Kaggle hotel booking dataset with over 100000 samples. It contains features such as lead time, agent, customer type, deposit type, country, and more.
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation
 
 We performed the following data cleaning steps:
-
-- Removed missing values / imputed where necessary
+- Dropped missing values/imputed where necessary
 - Dropped irrelevant columns (e.g., booking ID, reservation status date)
-- Encoded categorical variables using LabelEncoder / OneHotEncoder
-- Handled class imbalance using [e.g., resampling, class weights]
-- Selected top 5 features based on correlation to satisfy variable constraint
+- Encoded categorical variables
+- Handled class imbalance using class weights
+- Selected the top 5 features based on correlation to satisfy the variable constraints
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
-Here are some insights we derived from the dataset:
-
-- Insight 1: e.g., "Bookings with children are more likely to get cancelled."
-- Insight 2: e.g., "Lead time is positively correlated with cancellations."
-- Insight 3: e.g., "Certain countries have higher cancellation rates."
-
-We used:
+For EDA and data visualisations of relevant features, We used:
 - Heatmaps
 - Histograms
+- box plots
 - Correlation matrices
-- Groupby summaries
-
-> 🖼️ You can include some key EDA plots in a `plots/` folder or paste them into this README if small enough.
 
 ---
 
-## 🤖 Machine Learning Approach
+## Machine Learning Approach
 
 **Model Used:**  
 We implemented and evaluated the following models:
@@ -59,29 +56,18 @@ We implemented and evaluated the following models:
 - Random Forest Classifier
 - XGBoost Classifier (optional)
 
-**Final Model:**  
-The best performing model was: `RandomForestClassifier` with:
-- Accuracy: `XX.X%`
-- F1 Score: `X.XX`
-- Confusion Matrix, Classification Report shown in `model_evaluation.ipynb`
-
-**Why this model:**  
-Explain why it was chosen (e.g., handles non-linearity, performs well on small feature sets, etc.)
+**Conclusion**  
+> Given the dataset and models built, it is possible to predict hotel booking cancellations with relatively high accuracy
+> The best performing model was: `XGBoost Classifier` with the highest accuracy (above 80%), recall, and f1 score
 
 **Learning Beyond the Course:**  
-Mention what new thing you explored — e.g.,:
-- Tried `class_weight='balanced'`
-- Used `plot_tree()` to visualize tree structures
-- Explored `XGBoost` or `GridSearchCV` for optimization
-
+- Handling class imbalance to reduce bias to the majority class `class_weight='balanced'`
+- Encoding categorical variables
+- Using Cramer's to find the correlation of categorical variables
+- Data visualisation via choropleth map and pie charts
+- Implement RandomForestClassifier beyond just what we learnt in theory
+- Explored `XGBoost` for optimisation
 ---
 
-## 📈 Results & Insights
+## Contributors
 
-**Key Outcomes:**
-- The model can predict cancellations with up to XX% accuracy.
-- Lead time, deposit type, and booking changes were top predictors.
-
-**Recommendations:**
-- Hotels may reduce cancellations by limiting long lead-time bookings.
-- Certain user profiles may benefit from targeted engagement.
