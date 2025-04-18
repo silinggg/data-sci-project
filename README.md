@@ -58,7 +58,7 @@ For EDA and data visualisations of relevant features, We used:
 We implemented and evaluated the following models:
 - Decision Tree Classifier
 - Random Forest Classifier
-- XGBoost Classifier (optional)
+- XGBoost Classifier
 
 ##Conclusion  
 > Given the dataset and models built, it is possible to predict hotel booking cancellations with relatively high accuracy
@@ -69,7 +69,7 @@ We implemented and evaluated the following models:
 - Encoding categorical variables
 - Using Cramer's to find the correlation of categorical variables
 - Data visualisation via choropleth map and pie charts
-- Implement RandomForestClassifier beyond just what we learnt in theory
+- Implement `RandomForestClassifier` beyond just what we learnt in theory
 - Explored `XGBoost` for optimisation
 ---
 
