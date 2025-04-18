@@ -45,8 +45,10 @@ We performed the following data cleaning steps:
 For EDA and data visualisations of relevant features, We used:
 - Heatmaps
 - Histograms
-- box plots
+- Box plots
 - Correlation matrices
+- Pie charts
+- Choropleth map
 
 ---
 
