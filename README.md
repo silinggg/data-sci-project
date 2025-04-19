@@ -32,10 +32,12 @@ Kaggle hotel booking dataset with over 100000 samples. It contains features such
 ## Data Preparation and Cleaning
 
 We performed the following data cleaning steps:
-- Dropped missing values/imputed where necessary
-- Dropped irrelevant columns (e.g., booking ID, reservation status date)
-- Encoded categorical variables
-- Handled class imbalance using class weights
+- Dropped rows with null values/imputed where necessary
+- Dropped irrelevant columns (e.g., arrival date year, reservation status date)
+- Checked for class imbalance and handled it using class weights
+- Transformed the features "company” and “agent” to string type to treat it as categorical variables
+- Added new features such as "stay duration”’ and “total guests”
+- Removed outliers under certain features
 - Selected the top 5 features based on correlation to satisfy the variable constraints
 
 ---
