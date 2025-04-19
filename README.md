@@ -38,6 +38,7 @@ We performed the following data cleaning steps:
 - Transformed the features "company” and “agent” to string type to treat it as categorical variables
 - Added new features such as "stay duration”’ and “total guests”
 - Removed outliers under certain features
+- Encoded categorical variables using One-hot encoding
 - Selected the top 5 features based on correlation to satisfy the variable constraints
 
 ---
