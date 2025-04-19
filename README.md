@@ -29,7 +29,7 @@ Kaggle hotel booking dataset with over 100000 samples. It contains features such
 
 ---
 
-## Data Preparation
+## Data Preparation and Cleaning
 
 We performed the following data cleaning steps:
 - Dropped missing values/imputed where necessary
