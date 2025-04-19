@@ -71,7 +71,7 @@ The best performing model was: `XGBoost Classifier` with the highest accuracy (a
 ## Learning Beyond the Course: 
 - Handling class imbalance to reduce bias to the majority class `class_weight='balanced'`
 - Encoding categorical variables
-- Using Cramer's to find the correlation of categorical variables
+- Using Cramer's V to find the correlation of categorical variables
 - Data visualisation via choropleth map and pie charts
 - Implement `RandomForestClassifier` beyond just what we learnt in theory
 - Explored `XGBoost` for optimisation
