@@ -10,11 +10,11 @@ The SC1015 Data Science Mini Project focuses on predicting hotel booking cancell
 
 Follow our project step-by-step, and explore these notebooks in the following order:
 
-1. [Data Cleaning](Data_Cleaning.ipynb)
-2. [Exploratory Data Analysis](exploratory%20data%20analysis.ipynb)
-3. [Decision Tree](Decision_Tree.ipynb)
-4. [Random Forest](Random%20Forrest.ipynb)
-5. [XGBoost](XG%20Boost.ipynb)
+1. [Data Cleaning](1_Data_Cleaning.ipynb)
+2. [Exploratory Data Analysis](2_exploratory%20data%20analysis.ipynb)
+3. [Decision Tree](3_Decision_Tree.ipynb)
+4. [Random Forest](4_Random%20Forrest.ipynb)
+5. [XGBoost](5_XG%20Boost.ipynb)
 
 ## Problem Statement
 
