@@ -16,6 +16,15 @@ Follow our project step-by-step, and explore these notebooks in the following or
 4. [Random Forest](4_Random%20Forrest.ipynb)
 5. [XGBoost](5_XG%20Boost.ipynb)
 
+
+## Contributors
+
+- Madhumita - XG boost
+- Onaya - Data Cleaning and Exploratory Data Analysis
+- Si Ling - Decsion Tree and Random Forrest
+
+---
+
 ## Problem Statement
 
 **Practical Motivation:**
@@ -79,7 +88,7 @@ The best performing model was: `XGBoost Classifier` with the highest accuracy (a
 
 ## Contributors
 
-- Madhumita
-- Onaya
-- Si Ling
+- Madhumita - XG boost
+- Onaya - Data Cleaning and Exploratory Data Analysis
+- Si Ling - Decsion Tree and Random Forrest
 
