@@ -28,7 +28,7 @@ Follow our project step-by-step, and explore these notebooks in the following or
 ## Problem Statement
 
 **Practical Motivation:**
-In the hospitality industry, booking cancellations are unavoidable and bound to happen for various reasons, which can cause significant operational and financial disruptions to hotels. They face challenges such as inefficient room allocations and loss of potential revenue opportunities. If, however, hotels could predict cancellations in advance (via data science), more proactive measures like pricing strategies, intelligently overbooking could be implemented for their benefit.
+Booking cancellations are common in the hospitality industry and can cause operational and financial disruptions. Hotels face challenges like inefficient room allocation and lost revenue. Predicting cancellations with data science enables proactive strategies like dynamic pricing and smart overbooking.
 
 **Problem Definition:**
 Are we then able to predict hotel booking cancellations using machine learning based on selected customer and reservation attributes, and which model would predict it the best?
