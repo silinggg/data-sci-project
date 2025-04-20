@@ -86,9 +86,10 @@ The best performing model was: `XGBoost Classifier` with the highest accuracy (a
 - Explored `XGBoost` for optimisation
 ---
 
-## Contributors
+## References
+https://www.kaggle.com/code/farzadnekouei/hotel-booking-cancellation-prediction
+https://vitalflux.com/random-forest-vs-xgboost-which-one-to-use/#google_vignette
+https://www.hospitalitynet.org/opinion/4099297.html
+https://www.semanticscholar.org/paper/Exploratory-Data-Analysis-&-Booking-Cancelation-on-Saputro-Nanang/31db481dfd8cc7525805319177c51cb3f436702b
 
-- Madhumita - XG boost
-- Onaya - Data Cleaning and Exploratory Data Analysis
-- Si Ling - Decsion Tree and Random Forrest
 
