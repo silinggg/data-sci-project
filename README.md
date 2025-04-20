@@ -10,11 +10,12 @@ The SC1015 Data Science Mini Project focuses on predicting hotel booking cancell
 
 Follow our project step-by-step, and explore these notebooks in the following order:
 
-1. #data-cleaning-and-preprocessing
-2. #exploratory-data-analysis-eda
-3. #feature-selection
-4. #model-building
-5. #model-evaluation-and-final-insights
+1. Data Cleaning
+2. #data-cleaning-and-preprocessing
+3. #exploratory-data-analysis-eda
+4. #feature-selection
+5. #model-building
+6. #model-evaluation-and-final-insights
 
 ## Problem Statement
 
