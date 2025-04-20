@@ -79,3 +79,7 @@ The best performing model was: `XGBoost Classifier` with the highest accuracy (a
 
 ## Contributors
 
+- Madhumita
+- Onaya
+- Si Ling
+
