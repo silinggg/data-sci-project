@@ -21,7 +21,7 @@ Follow our project step-by-step, and explore these notebooks in the following or
 
 - Madhumita - XG boost
 - Onaya - Data Cleaning and Exploratory Data Analysis
-- Si Ling - Decsion Tree and Random Forrest
+- Si Ling - Decision Tree and Random Forest
 
 ---
 
