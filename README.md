@@ -90,6 +90,7 @@ The best performing model was: `XGBoost Classifier` with the highest accuracy (a
 https://www.kaggle.com/code/farzadnekouei/hotel-booking-cancellation-prediction
 https://vitalflux.com/random-forest-vs-xgboost-which-one-to-use/#google_vignette
 https://www.hospitalitynet.org/opinion/4099297.html
+https://www.geeksforgeeks.org/difference-between-random-forest-vs-xgboost/
 
 
 
